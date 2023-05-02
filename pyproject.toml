@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jinjat-cloud"
+version = "0.1.0"
+description = ""
+authors = ["Burak Emre Kabakcı <emrekabakci@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "=3.9"
+jinjat = "^0.4"
+fal-serverless = "0.6.29"
+modal-client = "0.49.2059"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
